@@ -11,6 +11,14 @@
 <maven.compiler.source>1.8</maven.compiler.source>   
 </properties>
 
+<dependencies>
+	
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.19</version>
+		</dependency>		
+	</dependencies>
 <build>
 		<plugins>
 			<plugin>
