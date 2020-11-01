@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 public interface Conexao {
 	
-	Connection getConectio();
+	Connection getConection();
 	void close();
 	void commit() throws SQLException;
 	void rollback();

@@ -12,19 +12,19 @@ public class ConexaoMysql implements Conexao {
 	// USUARIO
 	private static final String USERNAME = "root";
 	// SENHA
-	private static final String PASSWORD = " ";
+	private static final String PASSWORD = "";
 
 	// Dados de caminho, porta e nome da base de dados que irá ser feita a conexão
 	private static final String DATABASE_URL = "jdbc:mysql://localhost:3307/agenda?useTimezone=true&serverTimezone=UTC";
 
 	// construtor
 	public ConexaoMysql() throws SQLException, ClassNotFoundException {
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("com.mysql.cj.jdbc.Driver");
 		this.connection = DriverManager.getConnection(DATABASE_URL, USERNAME, PASSWORD);
 		this.connection.setAutoCommit(false);
 	}
 
-	public Connection getConectio() {
+	public Connection getConection() {
 		return connection;
 	}
 
@@ -60,4 +60,5 @@ public class ConexaoMysql implements Conexao {
 			}
 		}
 	}
+
 }
