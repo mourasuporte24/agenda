@@ -10,5 +10,6 @@ public class UsuarioText {
 		UsuarioDao dao = new UsuarioDao();
 		dao.inserir("Paula");
 	}
-
 }
+
+
