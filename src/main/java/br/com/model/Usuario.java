@@ -1,4 +1,4 @@
-package br.com.agenda;
+package br.com.model;
 
 public class Usuario {
 
