@@ -15,11 +15,11 @@ public class Text2 {
 			UsuarioDao dao = new UsuarioDao();
 			System.out.print(dao.listarTudo());
 			
-			LocalDao daoupdate = new LocalDao();
+			/*LocalDao daoupdate = new LocalDao();
 			daoUpdate.alterar("Centrais eletricas de sc");
 			System.out.println("Lista Atualizada");
 			localDao pesq = new LocalDao();
-			System.out.println(pesq.listarTudo());
+			System.out.println(pesq.listarTudo());*/
 
 		}
 		

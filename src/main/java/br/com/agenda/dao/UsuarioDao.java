@@ -67,8 +67,7 @@ public class UsuarioDao {
 				this.conexao.rollback();
 				throw e;
 			}
-		}
+	  	}
 		
-
 	}
 }

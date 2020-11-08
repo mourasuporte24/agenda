@@ -9,7 +9,8 @@ public class UsuarioText {
 	public static void main(String[] args) throws SQLException, ClassNotFoundException {
 		UsuarioDao dao = new UsuarioDao();
 		dao.inserir("Paula");
+
+		UsuarioDao update = new UsuarioDao();
+		dao.update();
 	}
 }
-
-	
