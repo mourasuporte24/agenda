@@ -21,5 +21,25 @@ public class Usuario {
 		this.nome = nome;
 	}
 
-}
+	public char[] listarTudo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
+	public Usuario(Long id, String nome) {
+		super();
+		this.id = id;
+		this.nome = nome;
+	}
+
+	public Usuario() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Usuario [id=" + id + ", nome=" + nome + "]";
+	}
+	
+
+}
